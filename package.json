@@ -1,0 +1,19 @@
+{
+  "name": "crud-db",
+  "version": "1.0.0",
+  "description": "This is a very easy to use and versatile database which just keeps a track of your data in a .dbs file",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "basic",
+    "db",
+    "beginner-friendly",
+    "less-error-prone",
+    "create-read-update-delete"
+  ],
+  "author": "zaid ajani",
+  "license": "ISC"
+}
