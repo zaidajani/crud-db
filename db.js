@@ -1,16 +1,15 @@
 const fs = require('fs');
+
 let db = {};
 updateDbVariable();
 
 function initialize() {
   try {
     fs.readFileSync('database.dbs', 'utf-8');
-  }
-  catch (error) {
+  } catch (error) {
     try {
       fs.writeFileSync('database.dbs', '');
-    }
-    catch (error) {
+    } catch (error) {
       console.log('cant write the database file');
     }
   }
@@ -51,9 +50,9 @@ function readAllData() {
 }
 
 module.exports = {
-  initialize: initialize,
-  add: add,
-  get: get,
-  vanish: vanish,
-  readAllData: readAllData
-}
+  initialize,
+  add,
+  get,
+  vanish,
+  readAllData,
+};
