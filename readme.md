@@ -1,12 +1,14 @@
-# What is this?
+# crud-db
+
+## What is this?
 
 This is an open-source database management system made and managed by `zaid ajani`.
 
-# how to install it?
+## how to install it?
 
 to install this and use it, just open the terminal and enter `npm i crud-db --save`
 
-# Documentation
+## Documentation
 
 In node.js, import it like 
 
@@ -14,7 +16,7 @@ In node.js, import it like
 const db = require('crud-db');
 ```
 
-# The basic functions.
+## The basic functions.
 
 As we import the library, on the top of the document, you'll need to initialize the database using `.initialize()` function.
 
@@ -58,7 +60,7 @@ Then in the database.dbs, it will add a row as
 
 You can update using the same command.
 
-use the same command and in the first parameter, suply the name of the key which you want to update, and in the second parameter, suply the value for the key.
+use the same command and in the first parameter, supply the name of the key which you want to update, and in the second parameter, supply the value for the key.
 
 example, if I have a `key-value` pair in the database as 
 ```json
@@ -93,12 +95,12 @@ example:
 ```javascript
 console.log(db.get('crud-api'));
 // this will console log the data of the key 'crud-api'
-// you can even store it in a varialble.
+// you can even store it in a variable.
 ```
 
 command 5: readAllData
 
-using the function `.readAllData()` you will be able to read all the data in the database, and can asign it to a variable, do some sorting, or just print it on to the console.
+using the function `.readAllData()` you will be able to read all the data in the database and can assign it to a variable, do some sorting, or just print it on to the console.
 
 example:
 
@@ -112,8 +114,8 @@ Fun fact:
 
 <b>The code of the application is so simple and small, that it is smaller than the readme, and is so functional!</b>
 
-# Hacktoberfest
+## Hacktoberfest
 
-This project can have pull requests for hacktoberfest, and if it is relevant, or useful, it will surely be excepted!.
+This project can have pull requests for hacktoberfest, and if it is relevant, or useful, it will surely be accepted!.
 
-<b>Enjoy the powerfull database.</b>
+<b>Enjoy the powerful database.</b>
