@@ -2,11 +2,11 @@
 
 This is an open-source database management system made and managed by `zaid ajani`.
 
-# how to install it?
+## how to install it?
 
 to install this and use it, just open the terminal and enter `npm i crud-db --save`
 
-# Documentation
+## Documentation
 
 In node.js, import it like 
 
@@ -14,7 +14,7 @@ In node.js, import it like
 const db = require('crud-db');
 ```
 
-# The basic functions.
+## The basic functions.
 
 As we import the library, on the top of the document, you'll need to initialize the database using `.initialize()` function.
 
@@ -110,9 +110,13 @@ this will return All the content in the database at that particular time.
 
 Fun fact:
 
-<b>The code of the application is so simple and small, that it is smaller than the readme, and is so functional!</b>
+<b>The code of the application is so simple and small, that it is smaller than the readme, and is so functional!, As more contributions came, the code increased!</b>
 
-# Hacktoberfest
+## test
+
+run `npm test` to see how functional the app is and the testing status. If it is not working, make an issue on the repository.
+
+## Hacktoberfest
 
 This project can have pull requests for hacktoberfest, and if it is relevant, or useful, it will surely be excepted!.
 
