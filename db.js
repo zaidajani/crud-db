@@ -35,6 +35,7 @@ function updateDb(data) {
 function add(key, value) {
   db[key] = value;
   updateDb(db);
+  return db[key];
 }
 
 function get(key) {
@@ -42,8 +43,10 @@ function get(key) {
 }
 
 function vanish(key) {
+  const keysValue = db[key];
   delete db[key];
   updateDb(db);
+  return keysValue;
 }
 
 function readAllData() {
@@ -51,9 +54,9 @@ function readAllData() {
 }
 
 module.exports = {
-  initialize: initialize,
-  add: add,
-  get: get,
-  vanish: vanish,
-  readAllData: readAllData
+  initialize,
+  add,
+  get,
+  vanish,
+  readAllData
 }
