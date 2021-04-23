@@ -1,6 +1,6 @@
 # What is this?
 
-This is an open-source database management system made and managed by `zaid ajani`.
+This is an open-source database management system made and managed by `zaidajani` On github.
 
 ## how to install it?
 
