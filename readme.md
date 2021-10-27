@@ -120,4 +120,4 @@ run `npm test` to see how functional the app is and the testing status. If it is
 
 This project can have pull requests for hacktoberfest, and if it is relevant, or useful, it will surely be excepted!.
 
-<b>Enjoy the powerfull lightweight json database.</b>
+<b>Enjoy the powerfull lightweight json file-based database.</b>
